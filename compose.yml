@@ -1,0 +1,8 @@
+services:  
+  bbee:
+    image: bbee
+    ports:
+      - 12525:12525
+    volumes:
+      - ./servers:/app/servers
+      - ./NetscriptDefinitions.d.ts:/app/NetscriptDefinitions.d.ts
